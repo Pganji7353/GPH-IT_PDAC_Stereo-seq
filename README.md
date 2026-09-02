@@ -185,6 +185,3 @@ python step13_cnv_spatial_niche_analysis.py --input_dir . --output_dir .
 - `step04` must run before `step11` (Sankey plot needs `step04`'s ecotype assignment CSV).
 - `step12` must run before `step09` (CellChat circos needs step12/LIANA's
   `lr_interactions_per_treatment.csv`; `generate_results.sh` already runs them in this order).
-- Figure/composite-page layout tooling (compositing individual panel PNGs into the final
-  multi-panel Fig 6/Fig 7/Supplementary pages) is not included here. This pipeline produces
-  the individual scientific result panels only.
